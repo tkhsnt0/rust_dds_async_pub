@@ -1,0 +1,12 @@
+[package]
+name = "rust_dds_async_pub"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+rand = "0.8.5"
+rustdds = "0.10.1"
+serde = "1.0.204"
+tokio = { version = "1.38.1", features = ["full"] }
+tokio-stream = "0.1.15"
